@@ -1,0 +1,8 @@
+Digraph grafo{
+node [shape=record];
+struct1 [label =" | 2 | "];
+struct2 [label =" | 5 | "];
+struct3 [label =" | 6 | "];
+Null
+ struct1->struct2->struct3->Null;
+}

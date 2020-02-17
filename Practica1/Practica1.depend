@@ -1,0 +1,95 @@
+# depslib dependency file v1.0
+1581915203 source:c:\users\wilfred\desktop\u\edd\nueva carpeta\practica1\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string>
+	<vector>
+	<conio.h>
+	<fstream>
+	<stdlib.h>
+	"ListaDoble.h"
+	"PilaHistorial.h"
+	"ListaCircularS.h"
+	"ListaOrdenadaABC.h"
+
+1581781603 source:c:\users\wilfred\desktop\u\edd\nueva carpeta\practica1\src\nodoldoble.cpp
+	"NodoLDoble.h"
+	<iostream>
+
+1581781569 c:\users\wilfred\desktop\u\edd\nueva carpeta\practica1\include\nodoldoble.h
+
+1581897563 source:c:\users\wilfred\desktop\u\edd\nueva carpeta\practica1\src\listadoble.cpp
+	"ListaDoble.h"
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<stdlib.h>
+
+1581897513 c:\users\wilfred\desktop\u\edd\nueva carpeta\practica1\include\listadoble.h
+	"NodoLDoble.h"
+	<iostream>
+
+1581807819 source:c:\users\wilfred\desktop\u\edd\nueva carpeta\practica1\src\nodolcirculars.cpp
+	"NodoLCircularS.h"
+	<iostream>
+	<string>
+	<stdlib.h>
+
+1581895125 source:c:\users\wilfred\desktop\u\edd\nueva carpeta\practica1\src\listacirculars.cpp
+	"ListaCircularS.h"
+	<iostream>
+	<string>
+	<fstream>
+	<stdio.h>
+	<stdlib.h>
+
+1581887455 c:\users\wilfred\desktop\u\edd\nueva carpeta\practica1\include\listacirculars.h
+	"NodoLCircularS.h"
+	<iostream>
+	<string>
+
+1581807819 c:\users\wilfred\desktop\u\edd\nueva carpeta\practica1\include\nodolcirculars.h
+	<iostream>
+	<string>
+	<stdlib.h>
+	<sstream>
+
+1581903415 source:c:\users\wilfred\desktop\u\edd\nueva carpeta\practica1\src\nodolordenada.cpp
+	"NodoLOrdenada.h"
+	<iostream>
+	<string>
+
+1581903293 c:\users\wilfred\desktop\u\edd\nueva carpeta\practica1\include\nodolordenada.h
+	<string>
+
+1581915558 source:c:\users\wilfred\desktop\u\edd\nueva carpeta\practica1\src\listaordenadaabc.cpp
+	"ListaOrdenadaABC.h"
+	<iostream>
+	<string.h>
+	<windows.h>
+	<fstream>
+
+1581915113 c:\users\wilfred\desktop\u\edd\nueva carpeta\practica1\include\listaordenadaabc.h
+	"NodoLOrdenada.h"
+
+1581916227 source:c:\users\wilfred\desktop\u\edd\nueva carpeta\practica1\src\nodopilahistorial.cpp
+	"NodoPilaHistorial.h"
+	<iostream>
+
+1581916227 c:\users\wilfred\desktop\u\edd\nueva carpeta\practica1\include\nodopilahistorial.h
+	<string>
+
+1581916227 c:\users\wilfred\desktop\u\edd\nueva carpeta\practica1\include\pilahistorial.h
+	"NodoPilaHistorial.h"
+	<iostream>
+	<string>
+
+1581916512 source:c:\users\wilfred\desktop\u\edd\nueva carpeta\practica1\src\pilahistorial.cpp
+	"PilaHistorial.h"
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<stdlib.h>
+
