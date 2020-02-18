@@ -96,6 +96,23 @@ void PilaHistorial::recorrerPila(){
 }
 
 
+//eliminar el primer nodo
+void PilaHistorial::popPilaHistorial(){
+//verificar que la pila no este vacia;
+    if(estadopilahistorial()==true){
+        system("cls");
+        cout<<"La pila de acciones esta vacia.";
+    }
+    else{
+        NodoPilaHistorial *aux=primero;
+        primero=aux->debajo;
+        delete aux;
+
+
+    }
+
+}
+
 PilaHistorial::~PilaHistorial()
 {
     //dtor

@@ -13,6 +13,7 @@ class PilaHistorial
         NodoPilaHistorial *ultimo;
         bool estadopilahistorial();
         void pushPilaHistorial(string arg);
+        void popPilaHistorial();
         void GraficarPilaHistorial();
         PilaHistorial();
         void recorrerPila();

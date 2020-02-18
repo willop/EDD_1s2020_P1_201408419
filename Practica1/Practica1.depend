@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1581915203 source:c:\users\wilfred\desktop\u\edd\nueva carpeta\practica1\main.cpp
+1581919032 source:c:\users\wilfred\desktop\u\edd\nueva carpeta\practica1\main.cpp
 	<iostream>
 	<stdio.h>
 	<stdlib.h>
@@ -81,12 +81,12 @@
 1581916227 c:\users\wilfred\desktop\u\edd\nueva carpeta\practica1\include\nodopilahistorial.h
 	<string>
 
-1581916227 c:\users\wilfred\desktop\u\edd\nueva carpeta\practica1\include\pilahistorial.h
+1581917494 c:\users\wilfred\desktop\u\edd\nueva carpeta\practica1\include\pilahistorial.h
 	"NodoPilaHistorial.h"
 	<iostream>
 	<string>
 
-1581916512 source:c:\users\wilfred\desktop\u\edd\nueva carpeta\practica1\src\pilahistorial.cpp
+1581918121 source:c:\users\wilfred\desktop\u\edd\nueva carpeta\practica1\src\pilahistorial.cpp
 	"PilaHistorial.h"
 	<iostream>
 	<fstream>

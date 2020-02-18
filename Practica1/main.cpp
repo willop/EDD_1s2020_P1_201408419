@@ -140,6 +140,43 @@ while(menu=1){
                             contenido=contenido+aux+"\n";
                             break;
                             }
+                            //fin de saltos de linea
+
+                        case 19:
+                            {
+
+
+                            string rutaguardar;
+                            system("cls");
+                            pintar();
+                            gotoxy(1,1);printf("Ingrese la ruta con nombre y extencion donde se guardara el documento:");
+                            gotoxy(5,3);cin>>rutaguardar;
+                            char* rutaguardarx2;
+
+                            rutaguardarx2=(char*)rutaguardar.c_str();
+                            ofstream archivoguardar;
+
+                            archivoguardar.open(rutaguardarx2,ios::out);
+                            if(archivoguardar.fail()==true){
+                                system("cls");
+                                pintar();
+                                gotoxy(20,20);printf("ERROR AL GUARDAR EL ARCHIVO");
+                            }
+                            else{
+
+                            archivoguardar<<contenido;
+                            cout<<"El archivo se guardo correctamente\nPrecione ctrl+x para regresar al menu";
+                            archivoguardar.close();
+                            }
+
+                            break;
+                            }
+                            //fin del guardado
+                        case 26:
+                            pilacambios.popPilaHistorial();
+                            pilacambios.recorrerPila();
+
+                            break;
                             //generar reportes
                         case 3:
                             {
@@ -205,7 +242,7 @@ while(menu=1){
                             gotoxy(1,1);printf("\t\t\t\t\t\t\tSe modifico el archivo");
                             gotoxy(1,2);printf("Se genero de nuevo la lista doble con la modificacion.");
                             gotoxy(1,3);printf("La cadena resultante es:");
-                            gotoxy(1,4);cout<<contenido;
+                            gotoxy(1,5);cout<<contenido;
                             for(int i=0;i<contenido.size()-1;i++){
                             lista.insertar(contenido[i]);
                             }
